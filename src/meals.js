@@ -2,8 +2,8 @@ var meals = ['breakfast', 'lunch', 'supper'];
 
 console.log(meals.sort());
 meals.forEach(function(currentValue, index, arr){
-  console.log(index, currentValue, arr);
+  alert(index, currentValue, arr);
 });
 
-var mealsCopy = meals.slice();
+var unusedMealsCopy = meals.slice();
 var mealsSort = meals.sort();
