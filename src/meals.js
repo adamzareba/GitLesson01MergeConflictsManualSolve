@@ -1,6 +1,6 @@
 var meals = ['breakfast', 'lunch', 'dinner'];
-
-console.log(meals.sort());
+meals.push('supper');
+console.log(meals.slice());
 meals.forEach(function(currentValue, index, arr){
   console.log("Foreach iteration");
   console.log(index, currentValue, arr);
